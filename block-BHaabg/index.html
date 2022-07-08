@@ -1,0 +1,100 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./assets/stylesheet/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1>Bollywood</h1>
+			<nav class="nav">
+				<a href="index.html">home</a>
+				<a href="#">movies</a>
+				<a href="#">actors</a>
+				<a href="#">actress</a>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<article class="article clearfix">
+					<div class="div-1">
+						<h2>success of bahubali</h2>
+						<p>
+							That a Telugu film like Baahubali was released in 9,000 screens
+							across the world and grossed over 1,000 crore in a month.
+						</p>
+						<p>
+							SS Rajamoulis Baahubali 2 — The Conclusion, described as the
+							“greatest Indian blockbuster of all time”.
+						</p>
+						<p>
+							one of the biggest in the world in terms of numbers — could be
+							swamped and swept clean at one go, with widest possible releases
+							one could imagine.
+						</p>
+					</div>
+					<div class="div-2">
+						<img
+							class="img"
+							src="./assets/media/baahubali-2.jpg"
+							alt="bahubali"
+						/>
+					</div>
+				</article>
+			</section>
+			<section>
+				<article class="article-2 clearfix">
+					<h3>cast and crew of bahubali</h3>
+					<img class="img-2" src="./assets/media/Prabhas-1.jpg" alt="Prabhas" />
+					<img class="img-3" src="./assets/media/Anuska-2.jpeg" alt="Anuska" />
+					<img class="img-4" src="./assets/media/Tamana-3.webp" alt="Tamana" />
+				</article>
+				<article class="article-2 clearfix">
+					<img
+						class="img-5"
+						src="./assets/media/Ramya krishna-4.jpeg"
+						alt="ramya krishna"
+					/>
+					<img
+						class="img-6"
+						src="./assets/media/Rana dugawati-5.webp"
+						alt="dugawati"
+					/>
+					<img
+						class="img-7"
+						src="./assets/media/Prabhakar-6.jpg"
+						alt="prabhakar"
+					/>
+				</article>
+			</section>
+		</main>
+		<footer class="clearfix">
+			<small>&copy:Devanand kumar</small>
+			<nav class="nav-1">
+				<a href="http://www.facebook.com">Facebook</a>
+				<a href="http://www.twitter.com">Twitter</a>
+			</nav>
+			<nav>
+				<a class="btn" href="#">back to top</a>
+			</nav>
+		</footer>
+	</body>
+</html>
